@@ -23,3 +23,4 @@ def register_user(user: CreateConserje = Depends(), foto: UploadFile = File(defa
         foto = foto.file.read()
 
     return conserje_service.register_conserje(foto, user)
+#a
